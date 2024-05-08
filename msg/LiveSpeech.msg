@@ -9,4 +9,9 @@ string final # final recognised text
 
 float64 confidence # confidence of the final recognised speech, [0-1]
 
-string language # IETF language code, e.g. 'en-GB'
+# The desired regional language locale, using following format:
+# the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes),
+# followed by an hyphen,
+# followed by the [ISO 3166-1 alpha-2 region code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+# For example, 'en_GB' specifies British English.
+string language
