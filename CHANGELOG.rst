@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2024-07-01)
+------------------
 * bring back LiveSpeech/language while we transition to LiveSpeech/locale
 * LiveSpeech: refactor from language to locale
 * fix documentation
